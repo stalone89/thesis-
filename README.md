@@ -16,12 +16,21 @@ To run the PX4 triple redundancy system software follow these steps:
 
 6 - Open the Terminal and go to the "PX4-Autopilot/" directory. Run the command "make px4_sitl gazebo"
 
-7 - Open another terminal and use the following commands replacing the (PX4 directory location) by the PX4 firmware directory location from your computer:
+7 - Open another terminal and run the following commands replacing the (PX4 directory location) by the PX4 firmware directory location from your computer:
 export PX4_SIM_MODEL="iris"
 cd Developer/PX4-Autopilot/build/px4_sitl_default/instance_1
 ../bin/px4 -i 1 (PX4 directory location)/PX4-Autopilot/build/px4_sitl_default/etc/ -s etc/init.d-posix/rcS -t "(PX4 directory location)/PX4-Autopilot"/test_data
 
-8 - Open another terminal and use the following commands replacing the (PX4 directory location) by the PX4 firmware directory location from your computer: 
+8 - Open another terminal and run the following commands replacing the (PX4 directory location) by the PX4 firmware directory location from your computer: 
 export PX4_SIM_MODEL="iris"
 cd Developer/PX4-Autopilot/build/px4_sitl_default/instance_2
 ../bin/px4 -i 2 (PX4 directory location)/PX4-Autopilot/build/px4_sitl_default/etc/ -s etc/init.d-posix/rcS -t "(PX4 directory location)/Developper/PX4-Autopilot"/test_data
+
+9 - Open another terminal inside the directory "thesis-/sample_ws/project1/" and run the command:
+./selection
+
+10 - Open another terminal inside the directory "thesis-/sample_ws/project1/" and run the command:
+./Qground_interface
+
+11 - Run the QGroundControl software app
+
