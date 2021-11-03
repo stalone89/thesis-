@@ -12,4 +12,6 @@ To run the PX4 triple redundancy system software follow these steps:
 
 4-  Replace the "common" directory from the "PX4-Autopilot/mavlink/include/mavlink" directory by the "new common" in the "thesis-/" directory. Rename the replaced "new common" directory to "common" inside the "PX4-Autopilot/mavlink/include/mavlink" directory.
 
+5 -
+
 5 - Download the QgroundControl software from "https://docs.qgroundcontrol.com/master/en/getting_started/download_and_install.html"
