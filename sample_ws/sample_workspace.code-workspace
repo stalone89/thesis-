@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"inet.h": "c",
+			"poll.h": "c",
+			"stdlib.h": "c",
+			"string.h": "c",
+			"tcp.h": "c"
+		},
+		"cSpell.words": [
+			"iret",
+			"myflag",
+			"nolinger",
+			"ptg",
+			"ptln",
+			"qground",
+			"rett",
+			"setsockpt",
+			"wpca",
+			"wprl"
+		],
+		"git.ignoreLimitWarning": true
+	}
+}
