@@ -1,4 +1,4 @@
-# thesis- Redundant autopilot system based on COTs open source solution
+Redundant autopilot system based on COTs open source solution
 
 
 To run the PX4 triple redundancy system software follow these steps:
