@@ -1,5 +1,5 @@
 # thesis- Redundant autopilot system based on COTs open source solution
-solution
+
 
 To run the PX4 triple redundancy system software follow these steps:
 
@@ -34,3 +34,7 @@ cd Developer/PX4-Autopilot/build/px4_sitl_default/instance_2
 
 11 - Run the QGroundControl software app
 
+
+
+
+The flight logs correspondent to the redundancy system testes with GPS failure, Magnetometer failure and Communication failures between autopilots are on the folder directory "thesis-/LOGS/". Each autopilot instance directory refers to a different autopilot which belong to the triple redundant system. The faults are injected always at the instance 0. 
